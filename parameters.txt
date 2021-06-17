@@ -1,0 +1,12 @@
+{
+    "width" : 400,
+    "height" : 400,
+    "jungleRatio" : 0.15,
+    "plantEnergy" : 50,
+    "plantsOnStartRatio" : 0.95,
+    "startEnergy" : 700,
+    "moveEnergy" : 15,
+    "animalsOnStart" : 300
+    "maxEnergy" : 800
+    "maxPlantDestructionRatio" : 0.85
+}
