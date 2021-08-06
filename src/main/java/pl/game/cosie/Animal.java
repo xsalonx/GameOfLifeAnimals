@@ -1,5 +1,4 @@
-package pl.cosie;
-
+package pl.game.cosie;
 import java.util.Random;
 
 public class Animal implements Comparable<Animal>{

@@ -1,4 +1,4 @@
-package pl.cosie;
+package pl.game.cosie;
 
 import java.util.Arrays;
 import java.util.Random;

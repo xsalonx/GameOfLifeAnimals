@@ -1,4 +1,4 @@
-package pl.cosie;
+package pl.game.cosie;
 
 public class Statistics {
     int day;

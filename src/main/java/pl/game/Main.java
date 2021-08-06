@@ -1,6 +1,6 @@
-package pl.visualization;
+package pl.game;
 
-import pl.cosie.*;
+import pl.game.cosie.*;
 
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
@@ -18,6 +18,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.robot.Robot;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
+
 import org.json.simple.parser.ParseException;
 
 import java.io.FileNotFoundException;
@@ -472,9 +473,9 @@ public class Main extends Application {
 
 //menu
         Label label1= new Label("Menu");
-        Button doubleMapVisualizationButton= new Button("Go to double pl.visualization");
+        Button doubleMapVisualizationButton= new Button("Go to double pl.game.visualization");
         doubleMapVisualizationButton.addEventHandler(MouseEvent.MOUSE_CLICKED, mouseEvent -> theStage.setScene(doubleVisScene));
-        Button singleMapVisualizationButton = new Button("Go to single pl.visualization");
+        Button singleMapVisualizationButton = new Button("Go to single pl.game.visualization");
         singleMapVisualizationButton.addEventHandler(MouseEvent.MOUSE_CLICKED, mouseEvent -> theStage.setScene(singleVisScene));
         VBox layout1 = new VBox(0);
         layout1.getChildren().addAll(label1, doubleMapVisualizationButton, singleMapVisualizationButton);
