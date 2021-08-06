@@ -26,7 +26,7 @@ import java.util.HashMap;
 import java.util.PriorityQueue;
 
 
-public class Main extends Application {
+public class App extends Application {
 
     public static void main(String[] args) {
         launch(args);
