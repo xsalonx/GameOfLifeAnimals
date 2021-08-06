@@ -1,4 +1,4 @@
-package cosie;
+package pl.cosie;
 
 import java.util.ArrayList;
 

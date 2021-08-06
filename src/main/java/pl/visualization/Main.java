@@ -1,6 +1,6 @@
-package visualization;
+package pl.visualization;
 
-import cosie.*;
+import pl.cosie.*;
 
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
@@ -472,9 +472,9 @@ public class Main extends Application {
 
 //menu
         Label label1= new Label("Menu");
-        Button doubleMapVisualizationButton= new Button("Go to double visualization");
+        Button doubleMapVisualizationButton= new Button("Go to double pl.visualization");
         doubleMapVisualizationButton.addEventHandler(MouseEvent.MOUSE_CLICKED, mouseEvent -> theStage.setScene(doubleVisScene));
-        Button singleMapVisualizationButton = new Button("Go to single visualization");
+        Button singleMapVisualizationButton = new Button("Go to single pl.visualization");
         singleMapVisualizationButton.addEventHandler(MouseEvent.MOUSE_CLICKED, mouseEvent -> theStage.setScene(singleVisScene));
         VBox layout1 = new VBox(0);
         layout1.getChildren().addAll(label1, doubleMapVisualizationButton, singleMapVisualizationButton);

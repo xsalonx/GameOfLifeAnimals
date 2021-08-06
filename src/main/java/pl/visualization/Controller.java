@@ -1,4 +1,4 @@
-package visualization;
+package pl.visualization;
 
 public class Controller {
 }

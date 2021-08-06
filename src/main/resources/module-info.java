@@ -4,5 +4,5 @@ module gameOfLifeAnimals {
     requires javafx.controls;
     requires json.simple;
 
-    opens visualization;
+    opens pl.visualization;
 }

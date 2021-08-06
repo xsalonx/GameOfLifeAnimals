@@ -1,4 +1,4 @@
-package cosie;
+package pl.cosie;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;

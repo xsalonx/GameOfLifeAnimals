@@ -1,8 +1,5 @@
-package cosie;
+package pl.cosie;
 
-import javafx.scene.layout.Priority;
-
-import java.security.spec.ECField;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.PriorityQueue;

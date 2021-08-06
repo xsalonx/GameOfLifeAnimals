@@ -1,4 +1,4 @@
-package cosie;
+package pl.cosie;
 
 public class JungleField {
 
